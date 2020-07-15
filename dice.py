@@ -1,4 +1,4 @@
-#Dice roller script v1.0 by MaragthamDevelopers
+#Dice roller script v2.0 by MaragthamDevelopers
 
 
 
