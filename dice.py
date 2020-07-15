@@ -1,7 +1,8 @@
-## Version 1.0.6
-## By Addison Djatschenko and some other editors on GitHub.
+#Dice roller script v1.0 by MaragthamDevelopers
 
-##########################################################
+
+
+
 
 ## Allows random numbers to be used in the file
 import random
