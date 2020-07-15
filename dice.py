@@ -4,11 +4,9 @@
 
 
 
-## Allows random numbers to be used in the file
+
 import random
-## Allows time in between rolls
 import time
-## User inputs
 while(True):
     times = int( input('Amount of rolls: '))
     if(times > 0):
@@ -33,16 +31,10 @@ while(True):
         break
     else:
         print("The interval between each roll must be equal or greater than 0")
-## Sets the dice rolls so far to zero
 timesSoFar = int(0)
-## Runs until timesSoFar equals times
 while timesSoFar != times:
-    ## Displays current dice roll
     print([random.randint(1, sides) for ndice in range(0,numberOfDice)])
-    ## Increments timesSoFar
     timesSoFar += 1
-    ## Waits for wait seconds
     time.sleep(wait)
 while timesSoFar == timesSoFar:
-    ## Stops program without exiting
     time.sleep(1)
